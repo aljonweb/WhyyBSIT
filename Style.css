@@ -1210,8 +1210,13 @@ footer {
         width: 100%;
     }
 
+     .section-branches  #mid{
+
+        flex-direction: column-reverse;
+     }
     .section-branches .card-branches {
         margin-top: 40px;
+        display: block;
     }
 
     .section-branches {
@@ -1219,8 +1224,12 @@ footer {
         padding: 20px;
     }
 
+     .section-branches .card-branches .images{
+
+        width: 100%;
+     }
     .section-branches .card-branches img {
-        width: 30vw;
+        width: 100%;
     }
 
     .card-branches img {
@@ -1406,4 +1415,5 @@ footer {
 
 
        }
+
 }
