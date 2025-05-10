@@ -1160,6 +1160,7 @@ footer {
 
     .hamburger {
         display: block;
+        margin-right: 25px;
     }
 
     .toggle-menu:checked ~ .sidebar {
