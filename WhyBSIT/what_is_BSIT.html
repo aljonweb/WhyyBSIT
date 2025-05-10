@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="asset/cybersecurity_-_Copy-removebg-preview.png">
+  <title>What is BSIT?</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Style2.css">
+  
+</head>
+<body>
+
+  
+  <section class="carousel">
+    <div class="carousel-images" id="carouselImages">
+      <img src="asset/bist.jpg" alt="Slide 1">
+      <img src="asset/college_bsit.jpg" alt="Slide 2">
+      <img src="asset/BSIT.jpg"Slide 3">
+    </div>
+    <div class="carousel-text">
+      <h1>What is BSIT?</h1>
+      <h3><q>Bachelor of Science in Information Technology</q></h3>
+    </div>
+  </section>
+
+  
+  <section class="intro-bsit">
+    <div class="container">
+      <div class="text">
+        <h2>Discover the World of IT</h2>
+        <p><strong>BSIT</strong> is a fouryear degree focused on the practical and theoretical aspects of computing, technology, and systems management.</p>
+        <p>With BSIT, you gain the skills to design, develop, and maintain software, databases, networks, and IT infrastructures across industries.</p>
+      </div>
+      <div class="image">
+        <img src="media/hero-image/remote.jpg" alt="BSIT Overview">
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="key-areas">
+  <div class="container">
+    <h2>Key Areas of Study</h2>
+    <div class="areas-grid">
+      <div class="area-card">Programming & Software Development</div>
+      <div class="area-card">Networking & System Administration</div>
+      <div class="area-card">Cybersecurity & Data Protection</div>
+      <div class="area-card">Web & Mobile Development</div>
+      <div class="area-card">Database Management</div>
+      <div class="area-card">IT Project Management</div>
+    </div>
+  </div>
+   <button class="btn" onclick="location.href='beginner.html'">Back</button>
+</section>
+
+
+  
+  <script>
+    const carousel = document.getElementById('carouselImages');
+    let index = 0;
+
+    setInterval(() => {
+      index = (index + 1) % 3;
+      carousel.style.transform = `translateX(-${index * 100}vw)`;
+    }, 4000); 
+  </script>
+ 
+
+</body>
+</html>
